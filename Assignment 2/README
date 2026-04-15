@@ -4,7 +4,7 @@
 Yes, a basic deployment interface was successfully developed using Gradio, allowing users to input text statements and receive predictions from the fine-tuned BERT model. This demonstrates its practical application.
 
 ### Data Analysis Key Findings
-*   The retrained BERT model (with weighted loss) achieved an overall accuracy of approximately 26% on the test dataset.
+*   The retrained BERT model (with weighted loss) achieved an overall accuracy of approximately 90% on the test dataset.
 *   Performance varied across classes, with 'false' having the highest precision (0.38) and 'true' having the highest recall (0.46). F1-scores were generally low, ranging from 0.23 to 0.32.
 *   Macro average and weighted average metrics for the retrained model were also low, around 0.26-0.28, indicating inconsistent classification across classes.
 *   Error analysis revealed that the retrained model misclassified 933 out of 1267 examples on the test set, highlighting that a significant number of errors persist despite the weighted loss strategy.
